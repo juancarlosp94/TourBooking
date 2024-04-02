@@ -1,0 +1,79 @@
+.App {
+    text-align: center;
+  }
+  
+  .addCategory {
+    display: flex;
+    flex-direction: column;
+    background: #1D202B;
+  }
+  
+  .addCategory {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    color: #fff; /* Set text color to white */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .addCategory h2 {
+    margin-bottom: 2rem;
+  }
+  
+  .addCategory form {
+    margin-bottom: 4rem;
+  }
+  
+  .addCategory form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+  }
+  
+  .addCategory form input,
+  .addCategory form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+
+  .addCategory form button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F28705;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .addCategory form button[type="button"] {
+    background-color: #ccc;
+    margin-right: 10px;
+  }
+  
+ 
+  .registro-categoria-button{
+    margin: 1em;
+  }
+
+.nombreimagen{
+  color:white;
+}
+ 
+
+
+
+  

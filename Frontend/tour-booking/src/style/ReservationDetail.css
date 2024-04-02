@@ -1,0 +1,368 @@
+.tour-details-title-right img {
+  width: 33px;
+  height: 33px;
+  margin-right: 0.3rem;
+}
+
+.tour-details-title-right img:hover {
+  transform: scale(1.3, 1.3);
+  -webkit-transform: scale(1.3, 1.3);
+  -moz-transform: scale(1.3, 1.3);
+}
+
+.loading h1 {
+  margin-top: 10rem;
+  margin-bottom: -4rem;
+  font-size: 40px;
+  color: orange;
+}
+
+.loading img {
+  mix-blend-mode: color-burn;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  object-fit: scale-down;
+}
+
+.tourDetail-table {
+  width: 30%;
+  height: max-content;
+  box-shadow: rgba(255, 254, 254, 0.2) 0px 2px 8px 0px;
+  border-radius: 0.7rem;
+}
+
+.tourDetail-description {
+  width: 70%;
+  height: auto;
+}
+
+.tour-comments {
+  display: flex;
+  flex-direction: row;
+  background-color: #eaeaea;
+  width: 65%;
+  margin: 1rem;
+  margin-left: 0;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border-style: groove;
+  border-color: #1d202b;
+  border-radius: 1em;
+}
+
+.tour-comments-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tour-comments-profile span {
+  font-size: 50px;
+  padding: 0.2rem;
+}
+.tour-comments-profile p {
+  font-size: 10px;
+}
+
+.tour-comments-text {
+  padding: 0.5rem;
+  padding-left: 3rem;
+}
+
+.characteristics-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  /* margin-top: 2rem;
+  margin-bottom: 2rem; */
+}
+
+.characteristics-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  margin: 0;
+  padding: 0;
+}
+
+.characteristics-h2 {
+  border-color: #1d202b;
+  width: 100%;
+  border-radius: 1em;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: Plus Jakarta Sans;
+  color: #1d202b;
+}
+
+.characteristics-ul {
+  border: #1d202b;
+  font-family: Plus Jakarta Sans;
+  color: #1d202b;
+  list-style-type: none;
+  display: inline;
+  padding: 1rem;
+}
+
+span {
+  margin-inline: 1rem;
+}
+
+.rating-tours {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin-right: 2rem;
+  color: #1d202b;
+  font-size: 15px;
+  padding: 0.5rem;
+}
+
+.tourDetail-table button {
+  font-size: 1.2rem;
+  border: none;
+  background-color: #f28705;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  margin: 2rem;
+}
+
+.volver-atras button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  border: none;
+  background-color: orange;
+  color: white;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  padding-inline: 1rem;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 0.3rem 0.3rem 0rem 0rem;
+  margin-bottom: 0.4rem;
+}
+
+.volver-atras span {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.datepicker input {
+  background: none;
+  color: #1d202b;
+  width: 150px;
+  padding: 1rem;
+  border: solid 1px #1d202b;
+  border-radius: 1rem;
+  font-size: 1rem;
+}
+
+.datepicker span {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.inicio-sesion {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  color: #1d202b;
+  justify-content: center;
+  align-items: center;
+}
+
+.inicio-sesion-fondo {
+  background: #cccccc;
+}
+
+.inicio-sesion-tilde-bienvenida {
+  margin-bottom: 12rem;
+}
+
+.inicio-sesion-title {
+  color: #1d202b;
+}
+
+.inicio-sesion h2 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.inicio-sesion-form {
+  margin: 1rem;
+  margin-bottom: 6rem;
+}
+
+.inicio-sesion-form input,
+.inicio-sesion-form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.inicio-sesion-form textarea {
+  resize: vertical;
+  margin: 1rem;
+}
+
+.inicio-sesion-form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: rgba(46, 54, 73, 0.7);
+  justify-content: center;
+  align-items: center;
+}
+
+.inicio-sesion-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  background-color: #f28705;
+  margin-right: 10px;
+  margin-top: 1rem;
+}
+
+.inicio-sesion-cerrar {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #f28705;
+  margin-right: 10px;
+  margin-top: 1rem;
+}
+
+.inicio-sesion .error {
+  margin: 0.5rem;
+  color: red;
+  font-weight: bold;
+}
+
+.bienvenido-title {
+  color: rgba(46, 54, 73, 0.7);
+  margin: 1rem;
+}
+
+.bienvenida-login {
+  margin-bottom: 2rem;
+  background: #1d202b;
+}
+
+.bienvenida-login-admin {
+  color: #fff;
+  margin-top: 1rem;
+  height: 100%;
+  max-width: 100%;
+  background: #1d202b;
+}
+
+.bienvenida-login-user p {
+  color: #fff;
+  margin-top: 1rem;
+  height: 100%;
+  max-width: 100%;
+  background: #1d202b;
+}
+
+.inicio-sesion-logeado {
+  height: 100%;
+  max-width: 100%;
+  background: #1d202b;
+  color: #fff;
+}
+
+.inicio-sesion-logeado h2 {
+  background-color: #1d202b;
+  padding-top: 3rem;
+}
+
+.no-tienes-cuenta-p {
+  color: rgba(46, 54, 73, 0.7);
+  margin-top: 1rem;
+}
+
+.no-tienes-cuenta-link {
+  text-decoration: none;
+}
+
+.reservation-detail-container {
+  border-radius: 2rem;
+  background-color: #4c4564;
+  display: flex;
+  flex-direction: row;
+  margin: 2rem;
+  width: max-content;
+}
+
+.reservation-detail-container-left {
+  background-image: url("/public/images/login.jpg");
+  /* Other CSS properties for the background */
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: auto;
+  border-radius: 2rem 0rem 0rem 2rem;
+}
+
+.reservation-detail-container-right {
+  padding: 3rem;
+  background-color: #1d202b;
+  border-radius: 0rem 2rem 2rem 0rem;
+}
+
+.reservation-detail-container-right h1 {
+  margin: 2rem;
+}
+
+.reservation-detail-container-right p {
+  color: white;
+  text-align: left;
+  margin: 1rem;
+}
+
+.reservation-detail-form-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  height: auto;
+}
+
+.reservation-detail-container-right input {
+  background-color: white;
+}
+
+.reservation-detail-form-line span {
+  color: #d98b34;
+  font-size: 30px;
+  margin-left: 0;
+}

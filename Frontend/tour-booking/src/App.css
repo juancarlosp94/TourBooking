@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@500&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400&family=Plus+Jakarta+Sans:wght@400;500&family=Poppins&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+h1 {
+  color: #fff;
+  font-family: "Plus Jakarta Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%; /* 28.8px */
+  letter-spacing: -0.72px;
+}
+
+p {
+  font-size: 16px;
+}
+
+h3 {
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.logo-link {
+  text-decoration: none;
+}
+
+p {
+  color: black;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 120%; /* 19.2px */
+  letter-spacing: -0.48px;
+}
+
+.ver-mas {
+  color: orange;
+  font-family: "Plus Jakarta Sans";
+  padding: 0.3rem;
+  margin: 2rem;
+  background-color: white;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/*--- Body ---*/
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #eaeaea;
+}
+
+/* DESTINOS */
+
+.bodydestinos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 30%;
+  flex-grow: 3;
+  justify-content: center;
+  padding-inline: 5rem;
+}
+
+.bodydestinos h2 {
+  margin: 3.5rem 0rem 2rem 0rem;
+}
+
+body h2 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 30px;
+  font-style: normal;
+  line-height: 120%; /* 28.8px */
+  letter-spacing: -0.72px;
+}
+
+/* RECOMENDADOS */
+
+.bodyrecomendados {
+  /*NO PODEMOS APUNTAR A RUTAS ABSOLUTAS, INTENTAR APUNTAR A RUTAS RELATIVAS: Juan Perdigón*/
+  /*En caso de no funcionar cambiar el slash/ por backslash \ : Juan Perdigón*/
+  background-image: url("/public/images/suscribirse.png");
+  /*   background-repeat: no-repeat; */
+  /*   background-attachment: fixed;
+  background-position: center; */
+  height: 40rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.bodyrecomendados h2 {
+  align-items: center;
+  margin: 2rem 0 1rem 0;
+}
+
+.bodyrecomendados p {
+  margin: 0.5rem;
+}
+
+.container-recomendados {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-recomendados {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  margin: 2rem 2rem;
+  width: 20%;
+  border-radius: 0.4rem;
+  justify-content: center;
+  padding: 0rem 1rem 1rem 1rem;
+  opacity: 0.95;
+}
+
+.card-recomendados img {
+  width: 10rem;
+  margin: 3rem;
+}
+
+.card-recomendados img {
+  width: 10rem;
+  margin: 3rem;
+}
+
+/*--- Fin Body ---*/
+
+.admin2 {
+  font-family: "Plus Jakarta Sans";
+  font-size: large;
+  color: red;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0 3rem 0;
+}
+
+.pagination-list {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.pagination-item {
+  display: inline-block;
+}
+
+.pagination-link {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.pagination-link:hover {
+  background-color: #eaeaea;
+}
+
+.pagination-link.active {
+  background-color: #f28705;
+  color: white;
+  border-color: #f28705;
+}
+
+.bodyfavoritos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 30%;
+  flex-grow: 3;
+  justify-content: center;
+  margin: 1rem 6rem 8rem 6rem;
+}
+
+.bodyfavoritos h2 {
+  margin: 3.5rem 0rem 2rem 0rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .container-recomendados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-recomendados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    margin: 2rem 2rem;
+    width: 16rem;
+    border-radius: 0.4rem;
+    justify-content: center;
+    padding: 0rem 1rem 1rem 1rem;
+    opacity: 0.95;
+  }
+
+  .bodyrecomendados {
+    /*NO PODEMOS APUNTAR A RUTAS ABSOLUTAS, INTENTAR APUNTAR A RUTAS RELATIVAS: Juan Perdigón*/
+    /*En caso de no funcionar cambiar el slash/ por backslash \ : Juan Perdigón*/
+    background-color: rgba(46, 54, 73, 0.7);
+    background-image: none;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+}
+
+.arrow-next,
+.arrow-back {
+  align-self: center;
+  display: inline-flex;
+  font-size: 40px;
+  top: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: #f28705;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  color: white;
+  box-shadow: 0px 0px 11px 5px rgba(255, 254, 254, 0.35);
+  opacity: 0.9;
+  padding: 0;
+}

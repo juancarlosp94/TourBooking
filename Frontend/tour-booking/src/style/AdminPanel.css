@@ -1,0 +1,57 @@
+.admin-display{
+    background: #1D202B;
+}
+
+.adminPanel-title{
+    color: #fff;
+}
+
+  /* Admin only desktop*/
+
+.admin-display-message {
+    display: none;
+}
+
+.admin-format {
+  display: flex;
+}
+
+.admin-content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.admin-content h1 {
+  font-family: Plus Jakarta Sans;
+  color:#1D202B;
+  margin: 0.5rem;
+}
+
+@media (max-width: 48rem) {
+
+.not-available {
+    text-align: center;
+    margin-top: 1.25rem;
+    color: #FFF;
+    background: #1D202B;
+}
+}
+  
+@media (max-width: 767px) {
+.admin-display {
+    display: none;
+}
+.admin-display-message {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 0, 0, 0.2);
+    color: #fff;
+    font-weight: bold;
+    height: 50rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+}

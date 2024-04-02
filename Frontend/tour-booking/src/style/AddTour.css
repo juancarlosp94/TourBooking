@@ -1,0 +1,181 @@
+
+.App {
+  text-align: center;
+}
+
+.addTour-panel {
+  display: flex;
+  flex-direction: column;
+  background: #1d202b;
+}
+
+/*addTour-panel.css*/
+
+.addTour-panel {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  color: #fff; 
+  justify-content: center;
+  align-items: center;
+}
+
+.addTour-panel h2 {
+  margin-bottom: 2rem;
+}
+
+.addTour-panel form {
+  margin-bottom: 4rem;
+}
+
+.addTour-panel form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+
+.addTour-panel form input,
+.addTour-panel form textarea,
+.addTour-panel form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.addTour-panel form textarea,
+.addTour-panel form select,
+.addTour-panel form input {
+  resize: vertical;
+  margin: 1rem;
+}
+
+.caracteristicas {
+ color:black;
+}
+
+
+
+.addTour-panel form button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f28705;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 1rem;
+}
+
+.addTour-panel form button[type="button"] {
+  background-color: #ccc;
+  margin-right: 10px;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+}
+
+.actionsButton {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+}
+
+.fileImage {
+  color: #fff;
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-style: italic;
+  border-radius: 0.3125rem;
+  background-color: rgba(0, 0, 0, 2);
+  display: flex;
+  padding: 2.5rem 3.625rem;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid var(--divider-light-1-px-60, rgba(228, 228, 228, 0.6));
+}
+
+.file {
+  width: 12.72125rem;
+  height: 1.76925rem;
+  flex-shrink: 0;
+  margin-top: 0.625rem;
+  background: #f28705;
+  box-shadow: 0px 0.25rem 0.5rem 0px rgba(50, 50, 71, 0.06),
+    0px 0.25rem 0.25rem 0px rgba(50, 50, 71, 0.08);
+}
+
+.sidebar {
+  color: #ffff;
+  display: flex;
+  width: 100%;
+  height: 6.25rem;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: start;
+}
+
+.prod,
+.search {
+  color: #fff;
+  background-color: #fff;
+  align-items: center;
+  display: flex;
+  margin: 1rem 15rem;
+  border-radius: 1.5rem;
+  justify-content: space-around;
+}
+
+.lista p {
+  margin-bottom: 10rem;
+}
+
+.add-product-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  text-align: justify;
+  align-items: center;
+  color: #fff;
+}
+
+.add-product-input,
+.add-product-textarea {
+  border: 1px solid var(--divider-light-1-px-60, rgba(228, 228, 228, 0.6));
+  display: block;
+  padding: 0.9rem 4.825rem;
+  background: #1d202b;
+}
+
+.fileImage button {
+  background: #f28705;
+  box-shadow: 0px 0.25rem 0.25rem 0px rgba(0, 0, 0, 0.25);
+  padding: 0.75rem 2rem;
+  font-style: italic;
+  color: #000;
+  text-align: center;
+  margin-top: 0.5rem;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+  line-height: 1.375rem; /* 137.5% */
+}
+
+.add-product-button {
+  color: #fff;
+  border-radius: 1.5625rem;
+  background: #f28705;
+  box-shadow: 0px 0.25rem 0.25rem 0px rgba(0, 0, 0, 0.25);
+  padding: 0.75rem 2rem;
+  font-family: "Plus Jakarta Sans";
+}

@@ -1,0 +1,64 @@
+button {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+.search-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: normal;
+  width: 90%;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 1rem;
+  padding-inline: 3rem;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 8px 24px;
+  margin-top: 3rem;
+  border-radius: 2rem;
+}
+
+.in-line {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Adjust the width of individual form elements if needed */
+.in-line .MuiTextField-root,
+.in-line .MuiFormControl-root {
+  flex: 1; /* Make the form elements take up equal space */
+  min-width: 200px; /* Set a minimum width for the form elements */
+}
+
+.numAdultsFormControl {
+  width: 40%;
+  margin-inline: 1rem;
+}
+
+.inputSearchTour {
+  width: 100%;
+  margin-inline: 1rem;
+}
+
+.buscarPorReserva {
+  border-radius: 2rem;
+  width: 2px;
+  margin: 0;
+  padding: 0;
+  background-color: orange !important;
+}
+
+@media only screen and (max-width: 1000px) {
+  .search-horizontal {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 1rem;
+    padding-inline: 3rem;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 8px 24px;
+    margin-top: 3rem;
+    border-radius: 2rem;
+  }
+}

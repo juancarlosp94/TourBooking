@@ -1,0 +1,457 @@
+.MuiContainer-root MuiContainer-maxWidthLg container- css-1oqqzyl-MuiContainer-root
+
+
+
+
+/*Tour details*/
+
+.tour-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  align-content: flex-start;
+  background-color: #eaeaea;
+  padding: 2rem 10% 2rem 10%;
+}
+
+.container-subTourDetail {
+  display: flex;
+  flex-direction: row;
+  border-radius: 1rem;
+  margin: 2% 0rem;
+}
+
+.container-subTourDetail-left {
+  margin: 0 1rem 0 0;
+  width: 75%;
+  padding: 0;
+}
+
+.container-subTourDetail-right {
+  border-radius: 1rem;
+  width: 25%;
+}
+
+.container-reservation-card {
+  position: sticky;
+  border-radius: 0.5rem;
+  background-color: #1f2029;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+  height: 15rem;
+}
+
+.container-reservation-card p {
+  color: white;
+}
+
+.container-reservation-card-price h1 {
+  color: orange;
+  font-size: 40px;
+}
+
+.container-reservation-card-price p {
+  color: orange;
+  font-size: 20px;
+}
+
+.container-reservation-card input {
+  color: white;
+}
+
+.container-subTourDetail-card {
+  padding: 2rem 2.5rem 2.5rem 2.5rem;
+  border-radius: 0.5rem;
+  margin: 0 0 1rem 0;
+  background-color: white;
+}
+
+.container-subTourDetail-card p {
+  color: #1d202b;
+  text-align: left;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500px;
+  line-height: 160%;
+}
+
+.tourDetail-table {
+  width: 100%;
+  height: max-content;
+  background-color: #ffffff;
+  box-shadow: rgba(255, 254, 254, 0.2) 0px 2px 8px 0px;
+  border-radius: 0.7rem;
+}
+
+.tour-detail-table-i {
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+}
+
+.tour-details-title h1 {
+  text-align: left;
+  font-family: Plus Jakarta Sans;
+  color: #1d202b;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.tour-details-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.loading h1 {
+  margin-top: 10rem;
+  margin-bottom: -4rem;
+  font-size: 40px;
+  color: rgb(188, 89, 13);
+}
+
+.loading img {
+  mix-blend-mode: color-burn;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  object-fit: scale-down;
+}
+
+.inicio-sesion-link-tour-detail {
+  text-decoration: none;
+  font-family: Plus Jakarta Sans;
+  color: orange;
+  font-weight: bold;
+  font-size: medium;
+}
+
+h5 {
+  color: black;
+  text-align: left;
+  margin-bottom: 1rem;
+  font-size: 22px;
+}
+
+.tour-comments {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 100%;
+  margin: 1rem;
+  margin-left: 0;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: none;
+}
+
+.tour-comments p {
+  color: black;
+}
+
+.tour-comments-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tour-comments-profile span {
+  font-size: 50px;
+  padding: 0.2rem;
+}
+.tour-comments-profile p {
+  font-size: 10px;
+}
+
+.tour-comments-text {
+  padding: 0.5rem;
+  padding-left: 3rem;
+}
+
+.characteristics-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.characteristics-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  margin: 0;
+  padding: 0;
+}
+
+.characteristics-title {
+  display: flex;
+  justify-self: start;
+  font-family: Plus Jakarta Sans;
+  color: orange;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.characteristics-ul {
+  border: #1d202b;
+  font-family: Plus Jakarta Sans;
+  color: #1d202b;
+  list-style-type: none;
+  display: inline;
+  padding: 1rem;
+}
+
+span {
+  margin-inline: 1rem;
+}
+
+.rating-tours {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin-right: 2rem;
+  color: #1d202b;
+  font-size: 15px;
+  padding: 0.5rem;
+}
+
+.tourDetail-table button {
+  font-size: 1.2rem;
+  border: none;
+  background-color: #f28705;
+  color: #1d202b;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  margin: 2rem;
+}
+
+.volver-atras button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  border: none;
+  background-color: orange;
+  color: white;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  padding-inline: 1rem;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 0.3rem;
+  margin-bottom: 0.4rem;
+}
+
+.volver-atras span {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.datepicker input {
+  background: none;
+  color: white;
+  width: 150px;
+  padding: 1rem;
+  border: solid 1px #1d202b;
+  border-radius: 1rem;
+  font-size: 1rem;
+}
+
+.datepicker span {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.material-symbols-rounded {
+  font-variation-settings: "FILL" 1, "wght" 7000, "GRAD" 0, "opsz" 74;
+  color: #1d202b;
+  border: none;
+  padding: 0.2rem;
+  border-radius: 50%;
+  background-color: #d98b34;
+}
+
+.material-symbols-rounded:hover {
+  transform: scale(1.3, 1.3);
+  -webkit-transform: scale(1.3, 1.3);
+  -moz-transform: scale(1.3, 1.3);
+}
+
+.material-symbols-outlined:hover {
+  transform: scale(1.3, 1.3);
+  -webkit-transform: scale(1.3, 1.3);
+  -moz-transform: scale(1.3, 1.3);
+}
+
+.cancellation-policy-title {
+  font-family: Plus Jakarta Sans;
+  color: orange;
+  font-size: medium;
+  text-align: left;
+  margin-bottom: 1rem;
+  font-size: 20px;
+}
+
+.cancellation-policy-text p {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  font-family: Plus Jakarta Sans;
+  color: #1d202b;
+  font-size: 12px;
+  font-style: normal;
+}
+
+/* .tour-detail-location-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  
+} */
+
+.tour-detail-location-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  border-radius: 1em;
+  margin-bottom: 2rem;
+}
+
+.tour-detail-location-title {
+  font-family: Plus Jakarta Sans;
+  color: orange;
+  font-size: 20px;
+  align-items: start;
+}
+
+.map-responsive {
+  display: flex;
+  width: 100%;
+  max-height: 600px;
+  max-width: 800px; /* Establece el ancho máximo deseado */
+  justify-self: start;
+}
+
+.map-responsive iframe {
+  width: 100%;
+  height: 0;
+  padding-bottom: 75%; /* Establece el aspect ratio (proporción) 4:3 para el iframe */
+  border: 0;
+  max-width: 100%;
+}
+
+.bookTour-link {
+  text-decoration: none;
+  font-family: Plus Jakarta Sans;
+  color: orange;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.characteristics-ul i {
+  margin: 10px;
+  font-size: 30px;
+}
+
+.images-container {
+  display: flex;
+  flex-direction: row;
+  height: 20rem;
+}
+
+.tour-details-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tour-details-title-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+
+.tour-details-title-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  margin-right: 4rem;
+}
+
+.reservaAhora {
+  color: #fff;
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 19.2px */
+  letter-spacing: -0.48px;
+  border-radius: 1rem;
+  background: #f28705;
+  box-shadow: 0px 4px 4px 0px rgba(226, 119, 18, 0.25);
+  display: flex;
+  width: 80%;
+  word-spacing: 5px;
+  font-weight: 600;
+  height: 38px;
+  padding: 10px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border: none;
+  margin: 1rem;
+
+}
+
+@media only screen and (max-width: 1000px) {
+  .tour-details-title {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+  }
+
+  .container-subTourDetail {
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 1rem;
+  }
+
+  .characteristics-items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .characteristics-ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-subTourDetail-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-subTourDetail-left {
+    width: 100%;
+  }
+
+  .container-subTourDetail-right {
+    width: 100%;
+  }
+}

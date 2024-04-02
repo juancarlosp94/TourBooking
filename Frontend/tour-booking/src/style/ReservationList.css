@@ -1,0 +1,161 @@
+.category-list-container {
+  width: 100%;
+}
+
+.search-bar {
+  display: flex;
+  width: 100%;
+  height: 52px;
+  margin-bottom: 3rem;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 17px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  margin: 2rem 0rem 0rem 0rem;
+}
+
+.search-bar input {
+  color: #fff;
+  display: flex;
+  width: 30%;
+  height: 36px;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #1d202b;
+}
+
+.category {
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+}
+
+.category p {
+  background-color: black;
+}
+
+.reservation-button-delete {
+  display: flex;
+  width: 60px;
+  height: 36px;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #f28705;
+  border: none;
+  color: #fff;
+}
+
+.category-list-bottom {
+  background-color: #1d202b;
+  height: 37rem;
+}
+
+.loading h1 {
+  margin-top: 10rem;
+  margin-bottom: -4rem;
+  font-size: 40px;
+  color: rgb(188, 89, 13);
+}
+
+.loading img {
+  mix-blend-mode: color-burn;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  object-fit: scale-down;
+}
+
+.registro-usuario-container {
+  border-radius: 2rem;
+  background-color: #4c4564;
+  display: flex;
+  flex-direction: row;
+  margin: 2rem 10rem;
+}
+
+.registro-usuario-container-left {
+  background-image: url("/public/images/register.jpg");
+  /* Other CSS properties for the background */
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 700px;
+  height: auto;
+  border-radius: 2rem 0rem 0rem 2rem;
+}
+
+.registro-usuario-container-right {
+  padding: 3rem;
+  background-color: #1d202b;
+  border-radius: 0rem 2rem 2rem 0rem;
+}
+
+.registro-usuario-container-right p {
+  color: white;
+}
+
+.registro-usuario-container input {
+  color: white;
+  background-color: transparent;
+  border-radius: 0.5rem;
+  border: none;
+  border: solid 1px white;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: right;
+}
+
+.form-group label {
+  width: 260px;
+  color: white;
+  text-align: right;
+}
+
+.admin-format {
+  width: auto;
+}
+
+.react-calendar {
+  font-family: Arial, sans-serif;
+  background-color: darkblue;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.react-calendar__tile--active {
+  background-color: white;
+  background-color: darkblue;
+  border-radius: 50%;
+}
+
+.reservation-count {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 700px) {
+  /* Add responsive styles if needed */
+}

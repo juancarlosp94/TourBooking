@@ -1,0 +1,95 @@
+.admin-sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+  background-color: #1d202b;
+  padding-bottom: 32px;
+  opacity: 0.8;
+}
+
+.admin-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.admin-sidebar-buttons {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  height: 48px;
+  padding: 16px 10px;
+  justify-content: start;
+  align-items: center;
+  flex-shrink: 0;
+  color: #fff;
+  background-color: #1d202b;
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 19.2px */
+  letter-spacing: -0.48px;
+  border: none;
+  text-decoration: none;
+}
+
+.adminsidebar-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0.5rem 0;
+}
+
+.admin-sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+  background-color: #1d202b;
+  padding-bottom: 32px;
+  opacity: 0.8;
+}
+
+.admin-topbar-buttons {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  height: 48px;
+  padding: 16px 10px;
+  justify-content: start;
+  align-items: center;
+  flex-shrink: 0;
+  color: #fff;
+  background-color: #1d202b;
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 19.2px */
+  letter-spacing: -0.48px;
+  border: none;
+  text-decoration: none;
+}
+
+.admin-topbar-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0.5rem 0;
+}
+
+.material-symbols-outlined{
+  color: white;
+}
+
+.single-line{
+  padding-right: 26px;
+}

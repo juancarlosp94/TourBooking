@@ -1,0 +1,69 @@
+.registro-usuario {
+  background: #1D202B;
+  text-align: center; 
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin: auto;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+.registro-usuario {
+  background-color: #cccccc;
+}
+
+.registro-usuario h1 {
+  color:#1D202B;
+  margin: 0.5rem;
+}
+
+.registro-usuario-form {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.registro-usuario-form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color:rgba(46, 54, 73, 0.7);
+  justify-content: center;
+  align-items: center;
+}
+
+.registro-usuario-form input,
+.registro-usuario-form textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+border-radius: 5px;
+font-size: 16px;
+}
+
+.registro-usuario-form textarea {
+resize: vertical;
+margin: 1rem;
+}
+
+.registro-usuario-button {
+display: inline-block;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+color:#fff;
+background-color: #F28705;
+margin-right: 10px;
+margin-top: 1rem;
+}
+
+.registro-usuario .error {
+color: #F28705;
+font-weight: bold;
+margin: 0.5rem;
+}
